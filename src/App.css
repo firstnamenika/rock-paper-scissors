@@ -1,0 +1,139 @@
+html {
+  width: 100%;
+  height: 100%;
+  background:
+    linear-gradient(to bottom right, #d5c9f6, #558bb3);
+  }
+.container {
+    background-color: rgb(60, 50, 108);
+    display:flex;
+    justify-content: space-around;
+    font-family: verdana;
+    padding-left: 1vw;
+    border-radius: 2%;
+    box-shadow: 1vw 2vw 5vw rgba(19, 9, 66, 0.633);
+    }
+
+.item-div {
+  align-content: center;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 7em;
+  color:aquamarine;
+  text-shadow: 
+    0 0 5px rgb(252, 142, 161),
+    0 10px 0 white,
+    0 10px 0 pink;
+  margin: 0.5;
+}
+
+/* Top box */
+
+.box-div {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
+  padding-right: 2%;
+}
+
+.box-div div {
+  align-self: center;
+}
+
+.score p {
+  padding-top: 3vw;
+  color: aliceblue;
+  font-size: 2.5em;
+}
+
+.result {
+  word-wrap: break-word;
+  height: 7vw;
+  padding-bottom: 1vw;
+  color: aliceblue; 
+}
+
+.result-placeholder {
+  display: hidden;
+  height: 7vw;
+  padding-bottom: 1vw;
+}
+
+/* Buttons */
+
+/* Reset button */
+
+.reset-btn {
+  position: absolute;
+  right: 4%;
+  margin-top: 2vw;
+}
+
+.reset-button {
+  text-transform: uppercase;
+  font-style: italic;
+  color: aliceblue;
+  background-color: rgb(60, 50, 108);
+  border-color: aliceblue;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-right-width: 5px;
+  border-left-width: 5px;
+  padding: 4px;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-shadow:
+    0 0 1px white,
+    1px 1px 5px white;
+}
+
+/* Play buttons */
+
+.play-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+  padding-bottom: 2vw;
+}
+
+img {
+  background-color: rgba(69, 49, 169, 0.407);
+  color: transparent;
+  border: 2px solid transparent;
+  border-radius: 10%;
+  box-shadow: 
+    inset 0 0 10px rgba(60, 50, 108, 0.816);
+  width: 10%;
+  height:auto;
+  padding: 8%;
+  transition: 0.2s;
+}
+
+img:active {
+  border-color: aquamarine;
+  transition: ease-in-out 0.2s;
+}
+
+.computer {
+  box-shadow: 0 0 10px red;
+  transition: ease-in-out 0.5s;
+}
+
+.tie {
+  border-color: yellow;
+  box-shadow: 
+    0 0 10px rgb(250, 235, 70);
+  transition: ease-in-out 0.5s;
+}
+
+.user {  
+  transition: ease-in-out 0.5s;
+  border-color: aquamarine;
+  box-shadow: 
+    0 0 10px rgb(127, 255, 236);
+}
+
+
